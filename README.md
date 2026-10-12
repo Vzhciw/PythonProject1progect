@@ -1,9 +1,9 @@
 python-sec-tools
-Небольшая подборка моих скриптов на Python для работы с системой и проверкой уязвимостей.
-Что тут есть:
-cvescan.py — сканер для поиска известных CVE и уязвимостей
-sysinfo.py — сбирает базовую инфу о системе и сети
-Запуск
-Нужен Python 3.x. Запускается стандартно через консоль:
+A small collection of my Python scripts for system analysis and vulnerability scanning.
+What's inside:
+cvescan.py — a simple tool for scanning known CVEs and vulnerabilities
+sysinfo.py — gathers basic system and network information
+How to run
+Requires Python 3.x. Run via terminal:
 python projects/cvescan.py
 python projects/sysinfo.py
